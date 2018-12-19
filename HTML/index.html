@@ -15,6 +15,7 @@
         <meta name="author" content=""> -->
         <!-- <link href="css/style2.css" rel="stylesheet" type="text/css"/> -->
         <!-- Web Fonts -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
         <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i|Montserrat:400,700" rel="stylesheet">
          <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700" rel="stylesheet">
          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -318,7 +319,7 @@
             </div>
         </div>
         <!-- End Parallax -->
-        Info
+        <!-- Info -->
              <div id="Features">
                 <div>
                 <div class="flip-container" ontouchstart="this.classList.toggle('hover');" >
@@ -819,7 +820,7 @@
     </section>
     <!-- Ask Question Section End -->
         <!-- Sponsors Filter -->
-        <!-- <div class="container g-padding-y-80--xs" id="Sponsor">
+        <div class="container g-padding-y-80--xs" id="Sponsor">
             <div class="g-text-center--xs g-margin-b-40--xs">
                 <h2 class="g-font-size-32--xs g-font-size-36--md">Sponsors</h2>
             </div>
@@ -828,27 +829,27 @@
                     <div data-filter="*" class="s-portfolio__filter-v1-item cbp-filter-item cbp-filter-item-active">Show All</div>
                     <div data-filter=".graphic" class="s-portfolio__filter-v1-item cbp-filter-item">Sponsered By</div>
                     <div data-filter=".logos" class="s-portfolio__filter-v1-item cbp-filter-item">Title</div>
-                    <div data-filter=".motion" class="s-portfolio__filter-v1-item cbp-filter-item">Incubator</div>
+                    <!-- <div data-filter=".motion" class="s-portfolio__filter-v1-item cbp-filter-item">Incubator</div> -->
                 </div>
             </div>
-        </div> -->
+        </div>
         <!-- End Sponsors Filter -->
 
         <!-- Sponsors Gallery -->
-        <!-- <div class="container g-margin-b-100--xs"> -->
-            <!-- <div id="js__grid-portfolio-gallery" class="cbp"> -->
+        <div class="container g-margin-b-100--xs">
+            <div id="js__grid-portfolio-gallery" class="cbp">
                
                 <!--graphic : Sponserd By -->
                 <!-- logos : title-->
                 <!--motion : Incubator -->
 
                 <!-- Item -->
-                <!-- <div class="s-portfolio__item cbp-item motion graphic logos">
+                <div class="s-portfolio__item cbp-item motion graphic logos">
                     <div class="s-portfolio__img-effect">
                         <img src="img/incubation1.png" alt="Portfolio Image">
                     </div>
         
-                </div> -->
+                </div>
                 <!-- Item -->
                 <!-- <div class="s-portfolio__item cbp-item motion graphic logos">
                     <div class="s-portfolio__img-effect">
@@ -921,9 +922,10 @@
                 </div> -->
                 
                 <!-- End Item -->
-            <!-- </div> -->
+            </div>
             <!-- End Sponsors Gallery -->
-        <!-- </div> -->
+        </div>
+
         <!-- End Sponsors -->
 
         <!-- Testimonials -->
@@ -1155,7 +1157,11 @@
                     </div>
                     <div class="col-xs-4 g-full-width--xs">
                         <div class="g-text-center--xs">
-                            <i class="g-display-block--xs g-font-size-40--xs g-color--white-opacity g-margin-b-30--xs ti-facebook-alt"></i>
+                            <!-- <i class="g-display-block--xs g-font-size-40--xs g-color--white-opacity g-margin-b-30xs ti-facebook-alt"></i> -->
+                            <a href="#" class="fa fa-facebook"></a>
+                            <!-- <i class="fas fa-igloo"></i> this icon's 1) style prefix == fas and 2) icon name == igloo -->
+                            <!-- <i class="fas fa-igloo"></i> using an <i> element to reference the icon -->
+                            <!-- <span class="fas fa-igloo"></span> using a <span> element to reference the icon -->
                             <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Follow Us</h4>
                             <p class="g-color--white-opacity"><a href="https://www.facebook.com/sociowelfarefestiitg/"></a></p>
                         </div>

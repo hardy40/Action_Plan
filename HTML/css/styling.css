@@ -4,6 +4,15 @@
     float: left;
 }
 
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+
 .pageBgcolor{
     width: 100%;
     height: 100%;
